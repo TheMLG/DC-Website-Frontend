@@ -1,24 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
-import Home from "./components/home";
-import Magazine from "./components/mag";
-import Fund from "./components/fund";
-import Addvertisemnt from "./components/add";
-import Review from "./components/review";
-import Aboutus from "./components/aboutus";
-import Contribute from "./components/contribute";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './app';
 
-
-
-const main = (
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <Navbar />
-    <Home />
-    <Footer />
+    <App />
   </React.StrictMode>
 );
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(main);

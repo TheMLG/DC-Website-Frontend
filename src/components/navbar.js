@@ -31,22 +31,25 @@ class Navbar extends React.Component {
         </button>
         <ul className={`navbar-menu${isOpen ? " active" : ""}`}>
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">Magazines</a>
+            <a href="/mag">Magazines</a>
           </li>
           <li>
-            <a href="#">Contribute</a>
+            <a href="/contribute">Contribute</a>
           </li>
           <li>
-            <a href="#">Advertise</a>
+            <a href="/add">Advertise</a>
           </li>
           <li>
-            <a href="#">Funding</a>
+            <a href="/fund">Funding</a>
           </li>
           <li>
-            <a href="#">Review</a>
+            <a href="/review">Review</a>
+          </li>
+          <li>
+            <a href="/aboutus">About Us</a>
           </li>
         </ul>
       </nav>
