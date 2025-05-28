@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/contribute.css';
 
-class Addvertisement extends Component {
+class Addvertisement extends React.Component {
 
     render() {
         return (
