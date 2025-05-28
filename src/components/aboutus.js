@@ -14,7 +14,7 @@ class Aboutus extends React.Component {
                 </p>
                 <div className="team">
                 <div className="team-member">
-                    <img src={require("../assets/dc_logo.jpeg")} alt="Person 1" />
+                    <img alt="Person 1" />
                     <h2>Lalitputi Goswami</h2>
                     <h3>Founder & Editor</h3>
                     <p>
@@ -24,7 +24,7 @@ class Aboutus extends React.Component {
                     </p>
                 </div>
                 <div className="team-member">
-                    <img src={require("../assets/dc_logo.jpeg")} alt="Person 1" />
+                    <img alt="Person 1" />
                     <h2>Lalitputi Goswami</h2>
                     <h3>Founder & Editor</h3>
                     <p>
@@ -34,7 +34,7 @@ class Aboutus extends React.Component {
                     </p>
                 </div>
                 <div className="team-member">
-                    <img src={require("../assets/dc_logo.jpeg")} alt="Person 1" />
+                    <img alt="Person 1" />
                     <h2>Lalitputi Goswami</h2>
                     <h3>Founder & Editor</h3>
                     <p>
