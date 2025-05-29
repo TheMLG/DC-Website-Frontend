@@ -20,14 +20,14 @@ class Navbar extends React.Component {
     const { isOpen } = this.state;
     return (
       <nav className="navbar">
-        <div className="logo" />
-        <div className="navbar-title">Dashnam Circular</div>
+        <div className="logo"></div>
+        <div className="navbar-title"></div>
         <button
           className="navbar-toggle"
           aria-label="Toggle navigation"
           onClick={this.toggleMenu}
         >
-          ☰
+          &#9776;
         </button>
         <ul className={`navbar-menu${isOpen ? " active" : ""}`}>
           <li>
