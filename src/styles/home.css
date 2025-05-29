@@ -41,19 +41,10 @@ main {
   padding: 1px 6px;
   border-radius: 5px;
   background-color: var(--lo);
+  color: black;
+  cursor: pointer;
+  font-size: 0.9rem;
 }
-
-.langBtn:hover {
-  background-color: var(--tc);
-  color: var(--lo)
-}
-/* 
-.lang-toggle {
-  width: 100%;
-  display: flex;
-  justify-content: right;
-  margin-bottom: 1rem;
-} */
 
 .intro-header{
   display: flex;
@@ -63,4 +54,11 @@ main {
 .underline {
   border: solid 1px var(--tc);
   width: 100%;
+}
+
+.lang-toggle {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+
 }

@@ -13,12 +13,12 @@ function Home() {
 
   return (
     <main>
-      <section className="introduction">
-        <div className="intro-header">
-          <h2>Introduction</h2>
           <div className="lang-toggle">
             <button className="langBtn" onClick={toggleComponent}>ENG/GUJ</button>
           </div>
+      <section className="introduction">
+        <div className="intro-header">
+          <h2>Introduction</h2>
         </div>
         <div className="underline"></div>
         <div className="intro-content">
