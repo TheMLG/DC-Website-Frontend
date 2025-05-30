@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/home.css";
 import IntroGuj from "../components/introGuj";
 import IntroEng from "../components/introEng";
+import Gallery from "../components/gallery";
 
 function Home() {
   const [showIntroGuj, setShowIntroGuj] = useState(true);
@@ -13,9 +14,9 @@ function Home() {
 
   return (
     <main>
-          <div className="lang-toggle">
-            <button className="langBtn" onClick={toggleComponent}>Guj/Eng</button>
-          </div>
+      <div className="lang-toggle">
+        <button className="langBtn" onClick={toggleComponent}>Guj/Eng</button>
+      </div>
       <section className="introduction">
         <div className="intro-header">
           <h2>Introduction</h2>
@@ -38,6 +39,15 @@ function Home() {
           </p>
         </article>
       </section>
+      <section className="gallery">
+
+        <h2>Gallery</h2>
+        <div className="underline"></div>
+        <div className="gallery-section">
+          <Gallery />
+        </div>
+      </section>
+
     </main>
   );
 
