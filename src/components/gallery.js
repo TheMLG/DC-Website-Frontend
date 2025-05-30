@@ -28,7 +28,7 @@ function Gallery() {
                             className="cardimg"
                             style={{ backgroundImage: `url(${image.src})` }}
                         ></div>
-                        <div className="cardinfo">{image.info}</div>
+                        {/* <div className="cardinfo">{image.info}</div> */}
                     </div>
                 ))}
             </div>
