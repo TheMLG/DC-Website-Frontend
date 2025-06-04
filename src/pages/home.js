@@ -13,7 +13,7 @@ function Home() {
 
 
   return (
-    <main>
+    <div className="main">
       <div className="lang-toggle">
         <button className="langBtn" onClick={toggleComponent}>Guj/Eng</button>
       </div>
@@ -48,7 +48,7 @@ function Home() {
         </div>
       </section>
 
-    </main>
+    </div>
   );
 
 }

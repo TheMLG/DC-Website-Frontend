@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color: #f0f2f5;
+}
+.magcard{
+    width: 90%;
+    max-width: 250px;
+    /* aspect-ratio: 1 / 1.414; A5 ratio */
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.frontpage {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1.414; /* A5 ratio */
+  max-height: 400px;
+  /* background-image: url("../../public/assets/gallery/dc-v-fp.jpg"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.title {
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.date {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.datas {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 20px; */
+  font-size: 1rem;
+  color: #555;
+}

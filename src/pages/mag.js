@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/mag.css";
-
+import Magcard from "../components/magcard";
 class Magazine extends React.Component {
   render() {
     return (
@@ -26,43 +26,9 @@ class Magazine extends React.Component {
           </button>
         </div>
 
-        <section className="magazine-grid">
-          <article className="magazine-card">
-            <div className="img"></div>
-            <h2 className="magazine-title">Magazine Title 1</h2>
-            <p className="magazine-date">January 2024</p>
-          </article>
-          <article className="magazine-card">
-            <div className="img"></div>
-            <h2 className="magazine-title">Magazine Title 2</h2>
-            <p className="magazine-date">February 2024</p>
-          </article>
-          <article className="magazine-card">
-            <div className="img"></div>
-            <h2 className="magazine-title">Magazine Title 3</h2>
-            <p className="magazine-date">March 2024</p>
-          </article>
-          <article className="magazine-card">
-            <div className="img"></div>
-            <h2 className="magazine-title">Magazine Title 4</h2>
-            <p className="magazine-date">April 2024</p>
-          </article>
-          <article className="magazine-card">
-            <div className="img"></div>
-            <h2 className="magazine-title">Magazine Title 5</h2>
-            <p className="magazine-date">April 2024</p>
-          </article>
-          <article className="magazine-card">
-            <div className="img"></div>
-            <h2 className="magazine-title">Magazine Title 6</h2>
-            <p className="magazine-date">April 2024</p>
-          </article>
-          <article className="magazine-card">
-            <div className="img"></div>
-            <h2 className="magazine-title">Magazine Title 7</h2>
-            <p className="magazine-date">April 2024</p>
-          </article>
-        </section>
+        <div className="magazine-grid">
+          <Magcard />
+        </div>
       </main>
     );
   }
