@@ -8,7 +8,7 @@ class Footer extends React.Component {
           Visitors Count: <span id="visitorCount">0</span>
         </div>
         <div className="footer-links">
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://chat.whatsapp.com/JetVbaUVzpFLD610lGk9hc" target="_blank" rel="noopener noreferrer">
             Join our WhatsApp Group
           </a>
           <div className="contact-info">
